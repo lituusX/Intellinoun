@@ -659,4 +659,4 @@
 {"id": "732", "amount": "26780000000000000000", "startTime": "1685754155", "endTime": "1685840555", "settled": true, "bidder": {"id": "0x16b6936aefa8f70029bcf9ea97f7c72ea5ff9327"}}
 {"id": "733", "amount": "26600000000000000000", "startTime": "1685841095", "endTime": "1685927495", "settled": true, "bidder": {"id": "0x520f977ff2fb5fc3a188b9b7821d583bc8741bc7"}}
 {"id": "734", "amount": "27060000000000000000", "startTime": "1685927951", "endTime": "1686014351", "settled": true, "bidder": {"id": "0x16b6936aefa8f70029bcf9ea97f7c72ea5ff9327"}}
-{"id": "735", "amount": "10000000000000000", "startTime": "1686014675", "endTime": "1686101075", "settled": false, "bidder": {"id": "0x460bdd9e5b9493cf00aeac89ce2eff01461b4db2"}}
+{"id": "735", "amount": "100000000000000000", "startTime": "1686014675", "endTime": "1686101075", "settled": false, "bidder": {"id": "0xa54c11dc5c04ed8b95481d1cd8ec07695b1d5583"}}
