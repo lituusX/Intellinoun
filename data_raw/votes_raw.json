@@ -8234,6 +8234,7 @@
 {"blockNumber": "17408071", "id": "0xd9e424871cdf9ca51fcdaf694495c00aa39cef4b-300", "support": true, "supportDetailed": 1, "votes": "1", "reason": null, "proposal_id": "300"}
 {"blockNumber": "17418088", "id": "0xe7304ba0f157f2ade94015934284b6704bc72911-300", "support": true, "supportDetailed": 1, "votes": "2", "reason": null, "proposal_id": "300"}
 {"blockNumber": "17415737", "id": "0xeffec2d0163343c8f26983af1f6684e0b966a6b2-300", "support": false, "supportDetailed": 0, "votes": "1", "reason": null, "proposal_id": "300"}
+{"blockNumber": "17420651", "id": "0xf05a0497994a33f18aa378630bc674efc77ad557-300", "support": true, "supportDetailed": 1, "votes": "1", "reason": null, "proposal_id": "300"}
 {"blockNumber": "17403697", "id": "0xf6b6f07862a02c85628b3a9688beae07fea9c863-300", "support": false, "supportDetailed": 0, "votes": "44", "reason": null, "proposal_id": "300"}
 {"blockNumber": "17414961", "id": "0xf9bf4c994b39d742e568096a04637edc5e8e6fda-300", "support": false, "supportDetailed": 0, "votes": "1", "reason": null, "proposal_id": "300"}
 {"blockNumber": "17416271", "id": "0x008c84421da5527f462886cec43d2717b686a7e4-301", "support": true, "supportDetailed": 1, "votes": "16", "reason": null, "proposal_id": "301"}
