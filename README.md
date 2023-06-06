@@ -1,6 +1,8 @@
 # Intellinoun
 
-Intellinoun is a repository containing various scripts and datasets for Nouns LLM. The project is a work in progress and data is updated once every 24 hours.
+## 🚧 WIP
+
+Intellinoun is a repository containing various scripts and datasets for Nouns LLM. The project automatically updates data every 24 hours.
 
 ## Project Structure
 
@@ -9,24 +11,27 @@ Intellinoun is a repository containing various scripts and datasets for Nouns LL
 ├── LICENSE
 ├── README.md
 ├── convert_files
-│   ├── __init__.py
-│   └── csv_to_xlsx.py
+│   ├── __init__.py
+│   └── csv_to_xlsx.py
+├── data_embeddings
+│   └── general_info_examples
+│       └── nouns_lilnouns_sample.csv
 ├── data_raw
-│   ├── enriched
-│   │   ├── voteswithReason_Sentiment_raw.csv
-│   │   ├── voteswithReason_Sentiment_raw.json
-│   │   └── voteswithReason_Sentiment_raw.xlsx
-│   ├── proposals_detailed_raw.csv
-│   ├── proposals_detailed_raw.json
-│   ├── proposals_raw.csv
-│   ├── proposals_raw.json
-│   ├── votes_raw.csv
-│   └── votes_raw.json
+│   ├── enriched
+│   │   ├── voteswithReason_Sentiment_raw.csv
+│   │   ├── voteswithReason_Sentiment_raw.json
+│   │   └── voteswithReason_Sentiment_raw.xlsx
+│   ├── proposals_detailed_raw.csv
+│   ├── proposals_detailed_raw.json
+│   ├── proposals_raw.csv
+│   ├── proposals_raw.json
+│   ├── votes_raw.csv
+│   └── votes_raw.json
 ├── fetch_data
-│   ├── __init__.py
-│   ├── fetch_proposals.py
-│   ├── fetch_proposals_detailed.py
-│   └── fetch_votes.py
+│   ├── __init__.py
+│   ├── fetch_proposals.py
+│   ├── fetch_proposals_detailed.py
+│   └── fetch_votes.py
 ├── poetry.lock
 ├── pyproject.toml
 └── tests
@@ -51,6 +56,9 @@ Intellinoun is a repository containing various scripts and datasets for Nouns LL
 - [`proposals_raw.json`](./data_raw/proposals_raw.json): Raw proposals data in JSON format.
 - [`votes_raw.csv`](./data_raw/votes_raw.csv): Raw votes data in CSV format.
 - [`votes_raw.json`](./data_raw/votes_raw.json): Raw votes data in JSON format.
+- `data_embeddings`:
+- `general_info_examples`:
+- [`nouns_lilnouns_sample.csv`](./data_embeddings/general_info_examples/nouns_lilnouns_sample.csv): Sample data containing general information examples for nouns and little nouns in CSV format.
 - `fetch_data`:
 - [`__init__.py`](./fetch_data/__init__.py): Makes the directory a Python package.
 - [`fetch_proposals.py`](./fetch_data/fetch_proposals.py): Python script to fetch proposal data.
