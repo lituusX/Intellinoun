@@ -5,11 +5,22 @@ description = "Various scripts and datasets for Nouns LLM."
 authors = ["lituus"]
 license = "UNLICENSE"
 readme = "README.md"
+packages = [
+    {include = "fetch_data"},
+    {include = "convert_files"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.0.2"
 requests = "^2.31.0"
+nltk = "^3.8.1"
+transformers = "^4.29.2"
+torch = "^2.0.1"
+numpy = "^1.24.3"
+openai = "^0.27.7"
+sentencepiece = "^0.1.99"
+openpyxl = "^3.1.2"
 
 
 [build-system]
