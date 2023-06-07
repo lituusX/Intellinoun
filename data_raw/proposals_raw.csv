@@ -27810,7 +27810,7 @@ Additional tickets for the team: $1,000
 
 
 
-",ACTIVE,17401340,17437340,1,109,,1000000,1000,1500,727,81,118,2,['39500000000000000000'],['0x8ae80e0b44205904be18869240c2ec62d2342785'],[''],17365340,1685371763,0x932d4d712c4286c5010cecf6a05a1636167c8f93d1097f68f81f70a8971a65fd,['0x'],0x8ae80e0b44205904be18869240c2ec62d2342785
+",ACTIVE,17401340,17437340,1,109,,1000000,1000,1500,727,86,135,4,['39500000000000000000'],['0x8ae80e0b44205904be18869240c2ec62d2342785'],[''],17365340,1685371763,0x932d4d712c4286c5010cecf6a05a1636167c8f93d1097f68f81f70a8971a65fd,['0x'],0x8ae80e0b44205904be18869240c2ec62d2342785
 301,"Artmatr x Nouns - 1,001 Nouns","# Artmatr x Nouns - 1,001 Nouns
 
 [![image15.png](https://i.postimg.cc/bvysn37N/image15.png)](https://postimg.cc/qNFJVXB9)
@@ -27937,7 +27937,7 @@ Artmatr’s Investors & Strategic Partners:
 
 &nbsp;
 &nbsp;
-",ACTIVE,17413806,17449806,1,73,,1000000,1000,1500,729,17,1,0,"['0', '227154407384720509321']","['0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d', '0x4f2acdc74f6941390d9b1804fabc3e780388cfe5']","['sendOrRegisterDebt(address,uint256)', '']",17377806,1685523371,0x2b154c6d0647c2bad8a13a56513867f53feec4a9ca53501a7ba690658c2cebd3,"['0x00000000000000000000000018b9d06c12c8b9ad87c1d069ead058bfe3be19d30000000000000000000000000000000000000000000000000000006d32941200', '0x']",0xdcb4117e3a00632efcac3c169e0b23959f555e5e
+",ACTIVE,17413806,17449806,1,109,,1000000,1000,1500,729,20,84,2,"['0', '227154407384720509321']","['0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d', '0x4f2acdc74f6941390d9b1804fabc3e780388cfe5']","['sendOrRegisterDebt(address,uint256)', '']",17377806,1685523371,0x2b154c6d0647c2bad8a13a56513867f53feec4a9ca53501a7ba690658c2cebd3,"['0x00000000000000000000000018b9d06c12c8b9ad87c1d069ead058bfe3be19d30000000000000000000000000000000000000000000000000000006d32941200', '0x']",0xdcb4117e3a00632efcac3c169e0b23959f555e5e
 302,Fund a code4rena audit for DAO V3,"# Fund a code4rena audit for DAO V3
 
 ## TLDR
@@ -27971,7 +27971,7 @@ code4rena's quote consists of:
 
 Comes out to $198K; we're rounding up our request to $200K to have another slight buffer.
 
-Any unused funds will be sent back to the DAO.",PENDING,17423093,17459093,1,73,,1000000,1000,1500,730,0,0,0,"['0', '45163461840673738846']","['0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d', '0x4f2acdc74f6941390d9b1804fabc3e780388cfe5']","['sendOrRegisterDebt(address,uint256)', '']",17387093,1685636243,0x5d6c05ff221477c1eb2cbadfb915ba50bc138ed1316db99b89fb2dffe50a88a2,"['0x00000000000000000000000079095391743e0f017a16c388de6a6a3f175a5cd50000000000000000000000000000000000000000000000000000002e90edd000', '0x']",0xe26d78c6bff297bbc2da3f80fea9a42028a4260f
+Any unused funds will be sent back to the DAO.",ACTIVE,17423093,17459093,1,73,,1000000,1000,1500,730,104,0,1,"['0', '45163461840673738846']","['0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d', '0x4f2acdc74f6941390d9b1804fabc3e780388cfe5']","['sendOrRegisterDebt(address,uint256)', '']",17387093,1685636243,0x5d6c05ff221477c1eb2cbadfb915ba50bc138ed1316db99b89fb2dffe50a88a2,"['0x00000000000000000000000079095391743e0f017a16c388de6a6a3f175a5cd50000000000000000000000000000000000000000000000000000002e90edd000', '0x']",0xe26d78c6bff297bbc2da3f80fea9a42028a4260f
 303,TSP x ASK Long Beach: Silverado Skatepark,"# TSP x ASK Long Beach: Silverado Skatepark
 
 ![ASK Pic 1](https://i.imgur.com/56b3Zqj.png)
@@ -28042,3 +28042,315 @@ TSP will promote the partnership and funding support through dedicated social me
 tx1: One time payment to TSP
 tx2: USDC Auto-refill transaction automatically added to top off the DAO's USDC Funding Pool for future Proposals
 ```",PENDING,17430929,17466929,1,73,,1000000,1000,1500,732,0,0,0,"['0', '13305264601371398014']","['0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d', '0x4f2acdc74f6941390d9b1804fabc3e780388cfe5']","['sendOrRegisterDebt(address,uint256)', '']",17394929,1685731823,0xf2c72ea81bae70d5f72a3a0bfbb5dcffbc498fd56164361904e0f8e128827102,"['0x0000000000000000000000004734fa90b21cd07e878dc7f363cc14187c5c5e22000000000000000000000000000000000000000000000000000000263e101a80', '0x']",0x91dccaa260cc4616e1a6e6b693db7207c5e42937
+304,Nouns to fund a MEV relay that saved Ethereum from OFAC censorship dystopia (for now),"# Nouns to fund a MEV relay that saved Ethereum from OFAC censorship dystopia (for now)
+
+## TL;DR
+
+* The [ultra sound relay](https://relay.ultrasound.money/) is the largest MEV-boost relay by market share and importantly a non-censoring credibly neutral relay playing a pivotal role in maintaining Ethereum's censorship resistant properties.
+* The relay has operated as a public good funded by donations since inception and would very much welcome Nouns' contribution (according to [Justin Drake](https://twitter.com/drakefjustin), one of the team members).
+* This proposal suggests making a substantial 100 ETH donation to recognize the incredible feat, express our Ethereum-aligned values, and reach prospective DAO members who share our values.
+
+---
+
+## Context
+
+Last year post-Merge, there was a meaningful public concern around the rising level of censorship in Ethereum due to the (then dominant) Flashbots relay censoring OFAC transactions. At its peak, [block censorship reached ~80%](https://www.mevwatch.info/).
+
+In response to the public concern, the Flashbots team accelerated [open sourcing their relay code](https://writings.flashbots.net/Flashbots-Relay-open-sourcing) and many teams sprinted towards building non-censoring relay alternatives.
+
+Two such relays succeeded in gaining meaningful traction—the [ultra sound relay](https://relay.ultrasound.money/) and the [Agnostic relay](https://www.gnosis.io/blog/agnostic-relay-a-credibly-neutral-tool) by the Gnosis team—resulting in the dramatic reduction of censored blocks earlier this year.
+
+![](https://hackmd.io/_uploads/BJo0cF7I2.png)
+(screenshot from [mevboost.pics](https://mevboost.pics/))
+
+It's worth noting that such gains in relay market share was not attained simply by launching a copy-paste non-censoring fork of the Flashbots relay. The ultra sound relay team had to actually build a lower latency relay through innovations of their own such as [optimistic](https://github.com/michaelneuder/optimistic-relay-documentation/blob/main/proposal.md) [relaying](https://github.com/ultrasoundmoney/mev-boost-relay/blob/prod-optimistic-relaying/docs/optimistic/an-optimistic-weekend.md) and various devops optimizations.
+
+ultra sound relay's market share has been capped around 33% lately because the team is committed to self-cap its dominance to 1/3 of Ethereum blocks to foster relay diversity. They are also working closely with [Mike Neuder](https://twitter.com/mikeneuder) from the EF to help accelerate R&D for [enshrined PBS](https://ethresear.ch/t/why-enshrine-proposer-builder-separation-a-viable-path-to-epbs/15710) that would eliminate the need for relays entirely.
+
+---
+
+## Why should Nouns fund the ultra sound relay?
+
+**1. To continue to express our alignment with Ethereum and its values.**
+
+Nouns is a [headless brand](https://otherinter.net/research/headless-brands/). There is no PR head that builds coherent brand identities. Instead, we are what we do.
+
+So far our track record is strong:
+* We've always held our treasury entirely in ETH or stETH.
+* We've always focused on decentralization and onchain governance.
+* We've always insisted on open sourcing wherever possible, including our own brand IP.
+* We've always cared deeply about public goods.
+
+It's important to continue these things. To have an identity. To be who we are.
+
+Ethereum-aligned public goods we've funded so far in our history:
+* [Prop 21](https://nouns.wtf/vote/21) — donating 169 ETH to Gitcoin grants.
+* [Prop 108](https://nouns.wtf/vote/108) — donating 500 ETH to Ethereum protocol development via the Protocol Guild.
+* [Prop 184](https://nouns.wtf/vote/184) — donating 100 ETH to ZachXBT.
+* [Prop 249](https://nouns.wtf/vote/249) — giving out 30 ETH to Ethereum solo stakers.
+* [Prop 278](https://nouns.wtf/vote/278) — donating 55 ETH to the Gitcoin crypto advocacy round.
+
+We should be proud of what we've done so far but we must continue. Ethereum-aligned public goods are the substrates of our onchain world and funding them is an important expression of who we are and what we stand for.
+
+**2. To reach prospective DAO members that also care about Ethereum and the onchain world.**
+
+Charismatic giving towards public goods creates [news](https://www.theblock.co/post/193256/nouns-dao-donates-to-zachxbt) and generates [viral attention](https://twitter.com/noun40__/status/1598084457596325888) like anything else we might fund in an attempt to proliferate our brand and attract the attention of prospective DAO members.
+
+Funding Ethereum public goods is particularly useful in this regard since ETH holders and onchain world enthusiasts who care about Ethereum public goods are also (at least currently) our primary prospective DAO member demographic.
+
+---
+
+# Other details
+
+**Who is on the ultra sound relay team?**
+[AlphaMonad](https://twitter.com/AlphaMonad) leads the dev effort, with support from [alex](https://twitter.com/alextes) and [Justin Drake](https://twitter.com/drakefjustin).
+
+**Does the ultra sound money team need the funding?**
+This proposal is meant to recognize what has been accomplished (more like an award) not necessarily fund future work so the proposal does not focus on this aspect. However, the team communicated that funding is currently very tight, cloud bills alone costing ~$15k per month, so the funding would be very welcome.
+
+**What other funding sources does ultra sound relay team have?**
+A 10 ETH per month no-strings-attached donation from a top MEV-boost builder is the primary funding source according to the team.
+
+**Any conflict of interest?**
+The proposer ([Noun 40](https://twitter.com/noun40__)) has no prior (or planned future) personal or business relationship with anyone on the ultra sound relay team.  Reaching out to ask for permission to make this proposal was the first and only connection.
+
+**Why not also fund the Agnostic relay by the Gnosis team as well?**
+The ETH prize felt a bit superflous given that the Gnosis DAO has a [$260M treasury](https://zapper.xyz/daos/gnosis-dao) of their own but they definitely deserve high praise for stepping up and maintaining a successful non-censoring public good relay as well!",PENDING,17459594,17495594,1,73,,1000000,1000,1500,736,0,0,0,['100000000000000000000'],['0x52f8592baaf3b90bc94cb52f06c086080858e4d7'],[''],17423594,1686081167,0xc9683ac8d2e5a8180d5bc8583e329c80842d08080af35fa7fa5fe948cc444ea4,['0x'],0xae65e700f3f8904ac1007d47a5309dd26f8146c0
+305,NounsTennisFam (Feature Nouns/Noggles in grand slams/major tennis events and fund upcoming athletes),"# NounsTennisFam (Feature Nouns/Noggles in grand slams/major tennis events and fund upcoming athletes)
+
+# Objective and Overview
+
+![](https://i.postimg.cc/W4qgnt8s/2.png)
+
+**NounsTennisFam (NTF)** is a Web3 sports platform co-founded by ATP Rank 20, Borna Ćorić, and led by CEO Bruno Pliso. Forbes has recognized the platform for its innovative approach to revolutionizing the tennis industry. NTF is now ready to take the next steps in fostering the development of elite tennis talent, enhancing fan engagement, and positioning NounsDAO in front of a global audience of hundreds of millions.
+
+To achieve these goals, NTF will harness its tennis stars as brand ambassador powerhouses. They will compete in custom NTF Noggles apparel at some of the world's biggest sporting events and actively promote NounsTennisFam through their impressive social media reach. Additionally, NTF will provide a fairer and more transparent on-chain infrastructure for developing elite tennis talent and democratizing the sport.
+
+By supporting emerging players and enhancing fan engagement, NTF will make a mark on the industry, paving the way for a sustainable ecosystem for talent development, sponsorship opportunities, and interactive experiences. This will leave a legacy and transform NounsTennisFam into a well-known and respected name in the industry.
+
+In line with NounsDAO's mission of decentralization and community-driven initiatives, NTF will offer a comprehensive suite of resources for professional and aspiring tennis players, including funding, training, and community support. Empowering pros, prospects, and fans and transforming them into a community of benefactors invested in one another's success is the future of sports. Together, let's change the game and establish NounsTennisFam as a major force in professional tennis.
+
+# TL;DR
+
+NounsTennisFam is set to revolutionize the tennis industry through blockchain technology and democratization of the sport by providing fair compensation for investors and talent. With the goal of becoming a cornerstone of the global tennis market valued at $5.6 billion, NounsTennisFam aims to represent athletes and connect fans under the NounsDAO banner in front of millions of fans worldwide.
+
+## Key Objectives
+![](https://i.postimg.cc/3Jn3LBfZ/3.png)
+- Noggles and NounsTennisFam (NTF) branded jerseys to be worn by co-founder Borna Coric (World No 20 Croatian tennis star) in grand slams and other major events, with millions of views and discussions about Nouns and NTF in pre/post-match press conferences.
+- Develop the ""NounsTennisFam"" platform to support up-and-coming athletes by funding them through the issuance of their own digital collectibles, which translates to a portion of the athletes' future game/endorsement earnings.
+- Gain support from athletes such as Real Madrid/Croatian football star Luka Modric, Grand Slam winner Marin Cilic, and others in Borna's network.
+- Provide branded NTF/Noggles competition apparel for all NTF-sponsored athletes, seen by millions.
+- Support underprivileged communities to ensure that economics do not stand in the way of talent.
+- Create new opportunities for fans to interact with sports, invest, and be a part of an athlete's journey from the beginning while learning about web 3 in the process.
+- Establish NounsTennis Fam as a household name in professional sports.
+
+This collaboration presents a tremendous opportunity for NounsDAO to gain incredible exposure before a global audience and create lasting value for the brand while supporting emerging prospects and established professionals in the tennis industry.
+
+# Opportunity of a Lifetime
+
+## Tennis Viewership Numbers Reveal the Sport's Widespread Appeal and Growing Popularity
+
+Major tournaments, all of which NTF Co-founder, Borna competes in, attract millions of viewers worldwide. In 2021, Wimbledon reached a global audience of over 500 million viewers, while the French Open and the Australian Open had 350 million and 900 million viewers, respectively (source: Grand Slam Board). This global audience provides a significant opportunity for NounsTennisFam to engage a passionate user base and secure NounsDAO significant exposure before an army of loyal fans.
+
+## Sports on the Blockchain
+
+According to Grand View Research, Inc., the global sports market is expected to grow at a CAGR of 3.3% from 2020 to 2027, driven by increasing participation in sports, the rising popularity of sports leagues, and the growing demand for sports-related merchandise. Although this report does not specifically address tennis, a Nielsen Sports report forecasts tennis viewership to continue growing in the United States, fueled by top players' popularity and the rise of new stars like Coco Gauff. The US Open, in particular, has experienced significant growth, with a 33% increase in average audience per match in 2021 compared to the previous year. This suggests the potential for the sport to continue to grow in popularity and reach new audiences, offering a substantial opportunity for NounsDAO to engage with a large audience eager for innovative solutions like the NounsTennisFam platform.
+
+## Success stories
+
+### Tennis Australia
+
+Tennis Australia collaborated with the Australian Open to incorporate blockchain technology and NFTs into the event. The final bounce of winning points was linked to corresponding NFTs known as ""Artballs."" Fans owning these NFTs won various rewards, such as tickets to the next year's tournament. The Australian Open also utilized the metaverse, creating a replica of the Rod Laver Arena in Decentraland and engaging with millions of users in a Roblox experience. These initiatives led to increased viewership and fan engagement, demonstrating the potential of blockchain technology in sports.
+
+### NBA Top Shot
+
+NBA Top Shot is a blockchain-based platform that allows fans to buy, sell, and trade officially licensed NBA collectible highlights (NFTs). Its success factors include a strategic partnership with the NBA, a user-friendly platform, and scarcity-driven value of collectibles.
+
+### Socios.com
+
+Socios.com is a blockchain-based fan engagement platform for sports teams. Its success factors include partnerships with top-tier football clubs, fan token offerings (FTOs), and voting rights for fans on certain club decisions.
+
+These examples exhibit incredible potential for blockchain technology to revolutionize fan engagement, sports financing, and brand name recognition.
+
+## Key Benefits of Collaboration
+
+### Team and Experience
+
+Boasting Ivy League graduates, professional athletes, proven entrepreneurs, and Web3 experts, the NounsTennisFam team is prepared to catapult NounsDAO into the professional tennis spotlight as a fresh, inventive, and distinguished new brand.
+
+![](https://i.postimg.cc/mZzdHWfk/Screen-Shot-2023-06-07-at-1-04-23-am.png)
+
+| [Co-founder Borna Ćorić](https://www.atptour.com/en/players/borna-coric/cg80/overview) | [Co-founder & CCO Bruna Ćorić](https://www.linkedin.com/in/bruna-%C4%87ori%C4%87-916784b5/) | [Co-founder & CEO Bruno Pliso](https://www.linkedin.com/in/bruno-pliso-1a29a6176/) | [Creative Director Nina Turudic](https://www.linkedin.com/in/nikolina-turudic-ab29b4b2/) |
+
+| [Finance & Operations Ivan Turudic](https://www.linkedin.com/in/ivan-turudi%C4%87-18657a155/) | [CTO Karlo Brdek](https://www.linkedin.com/in/karlo-brdek) | [CMO Sven Stanko](https://www.linkedin.com/in/sven-stanko-545751ba/) | NFT Advisor, Dapper VP Fran Brajcic | [Web3 Consultant Shan Kumar](http://https://twitter.com/shanicucic96) |
+
+
+# Platform Features and User Experience
+
+![](https://i.postimg.cc/1RNDSMdm/platform.png)
+
+NounsTennisFam platform offers a range of features designed to create a transparent, fair, and sustainable ecosystem to attract and connect tennis pros, new talent, and fans. 
+
+1. **Platform & Launchpad:** The platform uses blockchain technology to establish a secure and transparent infrastructure to support emerging tennis talent. The NTF dApp enables fans to sponsor young and underprivileged players through funds generated by launchpad mints and commercial sponsorship deals. 
+2. **Player Exclusive Launchpad & Drops**: This feature allows established players and potential professionals to tokenize a portion of their anticipated earnings, providing financial support. The platform offers two types of drops: Professional Drops (seasonal tokens) and Prospect Drops (sponsorship tokens), catering to different stages of a player’s career. 
+3. **The Fam Section**: An exclusive content and social networking dashboard for NTF Asset holders, providing access to exclusive content, networking opportunities, and various benefits determined by the athletes. 
+4. **Athletes & Valuation**: The platform features verified ATP and WTA players and up-and-coming prospects, with advisory and selection support from Borna’s management agency, Kozmos Holding. Drops are valued individually, with tokens representing a fraction of the total fractionalized prize money. Professional player valuations are based on historical performance data and a proprietary model, while prospect valuations involve negotiations and selection for either a Prospect pool or a Player exclusive drop, guided by the expertise of Kozmos Holding.
+
+Together, NounsTennisFam and NounsDAO can actively support emerging tennis superstars by addressing one of their most significant challenges–funding, while providing a framework for established professionals to enter the Web3 space through fractionalized earnings. This approach will strengthen our brand and further democratizes the sport of tennis. Additionally, this collaboration will place NounsTennisFam at the forefront of a vast global tennis market, valued at $5.6 billion in 2019 (Source: ITF). Notably, 46% of global tennis fans have a household income of $75,000 or more (Source: ITF), representing a demographic well-suited to become NounsDAO community members.
+
+# Existing Partnerships and Collaborations
+
+NounsTennisFam has already established integral strategic partnerships with tennis academies, professional players, sport management giants, and Web3 projects that enhance the platform’s features and user experience. Our collaborations within the tennis industry allow us to tap into the impressive viewership numbers of events, such as the Wimbledon 2019, with a peak audience of 9.6 million viewers in the UK alone (Source: BBC), and the French Open 2020 final, with a peak audience of 3.3 million viewers in France (Source: SportsPro). 
+
+These partnerships provide credibility and enable NounsTennisFam to engage with tennis fans and connect with Web3 natives through our blockchain partners. By utilizing these alliances, we will expand our reach to tennis enthusiasts and the growing Web3 community, fostering a comprehensive and sustainable ecosystem for developing elite tennis talent and increasing fan engagement.
+
+## Meet our Athletes
+
+Professional supporters actively promoting the platform and its vision to their extensive fan bases, generating global awareness and support for the project.
+
+- **Borna Ćorić** (ATP Rank #20)
+- **Luka Modrić** (Real Madrid)
+- **Ajla Tomljanović** (WTA Rank #47)
+- **Marin Cilic** (ATP Rank #22)
+- **Ana Konjuh** (WTA Rank #145)
+- **Marcelo Brozovic** (Midfielder, Inter Milan)
+- **Filip Krajinovic** (ATP Rank #65)
+- **Donna Vekic** (WTA Rank #32) 
+
+## Web3 Collaborators
+
+Our Web3 partnership will bring fans and players together and help make tennis successful on the blockchain. Find out more about our amazing network.
+
+- **Nine Lives Lounge**
+- **Project Godjira**
+- **Ballman Project**
+- **AO ArtBall**
+- **The Apelist**
+- **??**
+
+# Roadmap, Marketing, and Growth Plan
+
+## Roadmap
+
+- The platform development is scheduled to start in Q2 2023, with a beta launch planned for Q4 2023.
+- The selection process for the talent program and the issuance of NFTs representing the prospects will start in Q4 2023.
+- The team plans to provide regular updates to the NounsDAO community on the platform’s progress and milestones achieved.
+- Signed prospect player and limited collection Q4 2023
+- Sign established tennis pro and limited collection Q4 2023
+- Community Event at the AO Q1 2024
+- Community event at Meneghetti Wine Hotel and The Croatia Open
+- Event & Exhibition at the Roland Garros Q3 2024
+
+# Marketing and growth
+
+![](https://i.postimg.cc/Z579BNGw/image-3.png)
+
+## Phase 1: Awareness and Brand Building (Q2-Q3 2023)
+- Increase brand awareness through social media campaigns, influencer partnerships, and collaborations with sports celebrities.
+- Engage in PR efforts, including interviews, podcasts, and articles featuring key team members and ambassadors.
+- Organize community events, AMAs, and live streams, creating a connection between fans, athletes, and the platform.
+- Organise community tournaments and exhibition events during major tournaments.
+
+## Phase 2: User Acquisition and Platform Adoption (Q4 2023-Q1 2024)
+- Launch the NounsTennisFam platform and host the first drops, attracting users and investors.
+- Create engaging content featuring platform users and success stories, highlighting the impact and opportunities provided by the platform.
+- Collaborate with tennis academies, sports management agencies, and professional players to identify and support more talent, growing the user base and attracting more fans.
+
+## Phase 3: Expansion and Ecosystem Growth (Q2 2024 and beyond)
+- Explore partnerships with sports agencies, tennis organizations, and additional sports verticals to expand the platform’s reach.
+- Develop additional features and enhance the platform’s user experience to retain users and encourage long-term engagement.
+- Continuously expand the roster of players and prospects, attracting more users and increasing the platform’s credibility and impact on the tennis and Web3 ecosystem.
+
+# Proposed Partnership
+
+![](https://i.postimg.cc/t4xZ3DRh/Screen-Shot-2023-06-07-at-1-11-07-am.png)
+
+The proposed partnership will allow us to engage a large audience eager for innovative solutions like the NounsTennisFam platform. By utilizing NounsDAO funding to further develop our platform, the partnership will establish a much-needed transparent and sustainable ecosystem for cultivating elite tennis talent, while increasing fan engagement and rewards. In turn, NounsTennisFam will be well situated to leverage current and future resources to proliferate NounsDAO with invaluable exposure through major sporting events, professional athletes, and far-reaching social accounts.
+
+- Integrate the iconic Nouns glasses into the NTF logo, creating a unified brand identity.
+- Showcase the NounsTennisFam logo on Borna Ćorić's official Asics match jerseys for one calendar year, offering global exposure with one of tennis's rising stars during major sports events.
+- Mandate all future NounsTennisFam athletes to wear the NounsDAO sleeve patch, further strengthening NounsDAO’s presence in the tennis world, and have them regularly share social media posts, contributing to the brand’s proliferation.
+- Share stories of professionals and prospects involved with NounsTennisFam through social media, maximizing exposure and reaching new audiences.
+- Leverage NounsTennisFam’s strong position in the sports industry to increase NounsDAO’s visibility as a supportive brand working to revolutionize tennis.
+- Sign prospects and players in the NTF ecosystem to share NTF/Nouns content on their social profiles, extending NounsDAO’s reach to their audiences.
+- Collaborate with AO Artball and pursue a wild card for the Australian Open for a prospect under NounsTennisFam sponsorship, further strengthening NounsDAO’s presence in the tennis world.
+- Access an estimated tennis viewership of 971 million, offering a significant opportunity for NounsDAO to engage with a large audience eager for innovative solutions like NounsTennisFam platform.
+
+# Proposed transaction
+
+![](https://i.postimg.cc/0ypG8tqt/Screen-Shot-2023-06-07-at-1-01-53-am.png)
+
+# Trackable Success Metrics
+
+- Number of users and NFT holders on the platform
+- Expansion of current social media reach and engagement statistics
+  - Twitter 7K Organic followers
+  - Borna Ćorić- Instagram 257K, Twitter 66K
+  - ProTennisFam Partners & Collaborators- Over 10 Million on all platforms
+  - PTF discord 1300 members
+- Tennis tournaments wins and participation of NounsTennisFam athletes
+- Performance and ranking improvements of the supported prospect player
+- Community engagement levels in platform decisions and governance
+- Number of brand Activations at major tennis tournaments, including Grand Slams.
+- Record and report viewership numbers for upcoming tennis majors in which NounsTennisFam branded players participate.
+- Steady increase in merchandise sales.
+
+# Community Engagement and Participation
+
+The NounsDAO community will be actively involved and engaged in the project through various means, such as voting on prospect player selection, providing input on platform features and improvements, and participating in governance decisions. The team will also provide regular community updates via an official newsletter, and performance reports on the supported prospects and the platform’s progress. Additionally, NounsDAO holders will have access to exclusive content, community events, and experiences, such as being able to attend tennis matches and meeting sponsored players.
+![](https://i.postimg.cc/130gtj0S/business-newsletter-design-and-monthly-journal-design-free-vector.jpg)
+
+# Risk Management and Long-term Sustainability
+
+Anticipated challenges include market volatility, regulatory changes, and competition. These risks can be mitigated by implementing proven risk management strategies, maintaining open communication with the NounsDAO community, and diversifying partnerships and collaborations. By exploring the diverse set of revenue streams available within the global tennis market and tapping into the endorsement incomes of top tennis players, the partnership between NounsDAO and NounsTennisFam can achieve long-term financial sustainability and create lasting value for all stakeholders involved.
+
+To further ensure the continued success and sustainability of the partnership, several strategies have been put in place to accommodate the unique needs and opportunities presented by the evolving tennis landscape and the Web3 ecosystem:
+
+- Implement a revenue-sharing model that benefits investors, players, and the platform, with a portion of the platform’s earnings allocated for player development and platform improvements.
+- Pursuing partnerships and collaborations with other Web3 projects and tennis organizations to expand our user base and increase revenue streams.
+- Continue to engage and communicate with the NounsDAO community and other stakeholders to ensure that the platform meets their needs and expectations.
+- Building a sustainable talent pipeline by supporting emerging players and reinvesting in their development.
+- Regularly monitoring and assessing market trends and adjusting our strategies accordingly.
+
+Through these strategies, we are confident that the partnership between NounsDAO and NounsTennisFam will achieve long-term financial sustainability, create lasting value, and continued familiarity within the industry.
+
+# Conclusion
+
+In conclusion, collaboration between NounsTennisFam and NounsDAO presents a significant opportunity to revolutionize the tennis industry through blockchain technology, democratize the sport, and introduce NounsDAO as a major brand and catalyst for positive change in professional sports.
+
+By tapping into a global tennis market valued at $5.6 billion (source: ITF) and engaging with a passionate fanbase, this partnership is poised for success. The potential for audience engagement is evident in the 2022 US Open, where the third-round match between Serena Williams and Ajla Tomljanovich (Public Supporter of PTF) became the most-watched tennis telecast in ESPN’s 43-year history, with an average of 4.6 million viewers (ESPN Press Room, 2022). As tennis viewership continues to grow, the NounsTennisFam stands to benefit from increasing popularity within an immense, global audience of sports fans while building the NounsTennisFam brand. Together, we can positively impact the sport and its community, help shape the future, and gain significant brand recognition.
+![](https://i.postimg.cc/J4NJD0mS/Nouns-Tennis-Fam.png)
+",CANCELLED,17460004,17496004,1,73,,1000000,1000,1500,736,0,0,0,['84000000000000000000'],['0xc79b099e83f6ecc8242f93d35782562b42c459f3'],[''],17424004,1686086111,0xf1a7d0b3f009498cab2c9e1681beabb511f24e9caf685fb64d125a06f5f28558,['0x'],0xad7bbe006c8d919ffcf6148b227bb692f7d1fbc7
+306,SNP - SD Comic Con: Connecting a Cornucopia of Creators,"# SNP - SD Comic Con: Connecting a Cornucopia of Creators
+
+**TLDR:**
+Nouns Town crew will head to SD Comic Con to gift 2,500 Nouns Activity Books to artists and collectors and commission 100+ Nounish artworks from industry pros + proliferate the meme through friends and peer collaborations.
+Total cots $57,500.00
+
+## SD Comic Con: Connecting a Cornucopia of Creators
+San Diego Comicon happens in July of 2023, and is a gathering of fans of pop culture, along with the artists that create content for them. With six figures of people walking through the doors, it has become one of the largest gatherings for talented people in the world. Those that write and draw comics, books, web series, movies and television, everyone goes to connect to the fans that keep them employed and appreciate them.
+
+Bringing in outside artists to Nouns would be a huge boon to the ecosystem. It would bring different creative perspectives to an artistic project, but also bring in a fan base that currently has no real visibility to Nouns. If we engage creators, get them excited, we have already seen that they will then plug themselves into Nouns, engage with Nouns, while still engaging with the medium they are experts in.
+
+Nouns is in a unique position to make dreams come true for creators that would otherwise be dissatisfied with their lot in their industry. If Eastman and Laird (the creators of Teenage Mutant Ninja Turtles) had access to Nouns, not only would they have brought Nouns iconography to their books, but they would have had an outlet to seek funding, letting Nouns fund the Turtles, which would later become a licensing juggernaut. This is a perfect end use case for Nouns collabs with creators.
+
+Our first step is to go to San Diego, connect with as many creatives as we can. We will get them to do commissioned work (which we will pay for) in a special Nouns sketch book, of which we will print many copies. This will let us open a dialogue with them to discuss Nouns, cc0, the benefits of the ecosystem, and how they might benefit from introducing themselves here.
+
+We will aim for over 100 creators’ commissions, giving Nouns many different versions and interpretations of Nouns and Nounish things from established artists, introduce the artists to us and cc0, and finally create inroads for further exploration in the near future. We will spread our net wide, but go for the premier artists in the industry (Jim Lee, Todd McFarlane, Geoff Darrow, etc.) along with the more traditional artists. Having been in this industry for two dozen years, I am comfortable saying I can have a conversation with any level of talent.
+
+**Nouns Sketch Book:** We will print 2,500 copies of a Nouns sketch book, with pages from the Nouns comic book contained within, as well as colouring pages, how to draw Nouns, and blank pages. We will give these away to creators, encouraging them to fill up the blank pages and give them back at the end.
+
+**Commission payments:** This is the main source of income for creators at conventions, so we will be paying for each commissioned work. We will specify that we wish something to do with Nouns (and the pages containing Nouns will give them plenty of reference material). The rate paid will be dependent upon the work they are doing, along with what their standard rate is. As a rough estimate, we will aim to pay $300 USD for a full sketch of a Noun in the creators’ style.
+
+We will need to have the books printed and delivered to San Diego no later than July 17th of 2023. This means we wish to be at the printer by the last week of June, which is our goal. Having decades of experience making monthly comic books, I am comfortable saying this will be 100% achievable. We have the designers, printers, shipper and storage lined up. It was essential to plot out the viability of accomplishing this prior to suggesting it.
+
+Who: Nouns Town team of Danny Schlitz, Adam & Bennet + Joshua Fisher
+
+**How Much:**
+$15,000 USD - Creating, Printing and Shipping 2,500 Nouns Sketch Books
+$30,000 USD - Commission Payments for 100+ Commissions
+$12,5000 USD - Adam, Josh, Danny & Bennet will be there manage the facilitation of the books and creators, as well as scanning the art pieces for the DAO afterwards. This covers travel and per diem costs.
+
+**$57,500 USD** - Total ask sent to ComicsDAO/SharkDAO Multisig
+
+Prop by: @defaulteduser / Adam + Joshua Fisher",PENDING,17460762,17496762,1,73,,1000000,1000,1500,736,0,0,0,['0'],['0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d'],"['sendOrRegisterDebt(address,uint256)']",17424762,1686095375,0x39990ec7aed2eb4f543fb18092c7703c40bacfed16353ef69667a8094a5c9c6c,['0x0000000000000000000000004b4a63e170aac970f45522fb6669a6f268cd672f0000000000000000000000000000000000000000000000000000000d63445f00'],0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a
