@@ -5,8 +5,8 @@ import pandas as pd
 # The `filename_csv` parameter is the path to the input CSV file.
 # The `filename_xlsx` parameter is the path to the output XLSX file.
 # To modify the paths, simply change the values of these parameters.
-def csv_to_xlsx(filename_csv: str = '../data/enhanced/votes_SentimentAnalysis.csv',
-                filename_xlsx: str = '../data/enhanced/votes_SentimentAnalysis.xlsx'):
+def csv_to_xlsx(filename_csv: str = '../data/enhanced/votes_SentimentAnalysis_flair.csv',
+                filename_xlsx: str = '../data/enhanced/votes_SentimentAnalysis_flair.xlsx'):
     # Reads the CSV file from the specified path
     df = pd.read_csv(filename_csv)
     # Writes the DataFrame to an XLSX file at the specified path

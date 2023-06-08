@@ -20,6 +20,7 @@ query getVotes($skip: Int) {
 }
 """
 
+
 def fetch_data() -> dict:
     data = []
     skip = 0
@@ -32,12 +33,18 @@ def fetch_data() -> dict:
         skip += 1000
     return data
 
-def save_data_to_csv_json(data: dict, filename_csv: str = '../data/raw/votes_raw.csv', filename_json: str = '../data/raw/votes_raw.json'):
+
+def save_data_to_csv_json(data: dict, filename_csv: str = '../data/raw/votes_raw.csv',
+                          filename_json: str = '../data/raw/votes_raw.json',
+                          filename_timestamp: str = '../data/timestamps/fetch_votes.txt'):
     votes = []
+    highest_block_number = 0
     for proposal in data:
         for vote in proposal['votes']:
             vote['proposal_id'] = proposal['id']
             votes.append(vote)
+            if int(vote['blockNumber']) > highest_block_number:
+                highest_block_number = int(vote['blockNumber'])
 
     # Save to JSON
     with open(filename_json, 'w') as file:
@@ -50,7 +57,11 @@ def save_data_to_csv_json(data: dict, filename_csv: str = '../data/raw/votes_raw
     df = pd.DataFrame(votes)
     df.to_csv(filename_csv, index=False)
 
+    # Save the highest block number
+    with open(filename_timestamp, "w") as file:
+        file.write(str(highest_block_number))
+
+
 if __name__ == '__main__':
     data = fetch_data()
     save_data_to_csv_json(data)
-    
