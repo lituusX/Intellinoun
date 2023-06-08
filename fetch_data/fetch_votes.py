@@ -32,7 +32,7 @@ def fetch_data() -> dict:
         skip += 1000
     return data
 
-def save_data_to_csv_json(data: dict, filename_csv: str = '../data_raw/votes_raw.csv', filename_json: str = '../data_raw/votes_raw.json'):
+def save_data_to_csv_json(data: dict, filename_csv: str = '../data/raw/votes_raw.csv', filename_json: str = '../data/raw/votes_raw.json'):
     votes = []
     for proposal in data:
         for vote in proposal['votes']:
