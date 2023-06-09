@@ -16,4 +16,6 @@ df = df[['reason_formatted', 'Sentiment Classification', 'Sentiment Classificati
 df['classification_match'] = df['classification_a'] == df['classification_b']
 df['intensity_diff'] = df['intensity_a'] - df['intensity_b']
 
-df.to_csv('../../data/processed/votes_Dataset.csv', index=False)
+df.to_csv('../../data/processed/datasets/votes_datasetSample.csv', index=False)
+
+df.to_parquet('../../data/processed/datasets/votes_datasetSample.parquet', index=False)

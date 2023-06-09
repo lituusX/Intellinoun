@@ -123,6 +123,10 @@ the `data_processing` scripts perform sentiment analysis on the fetched data.
 - Future work includes extending the project to analyze other types of data such as proposal data and auction data, as
   well as tagging of addresses and transactions.
 
+## Huggingface
+
+Datasets can be found [here](https://huggingface.co/datasets/lituus/Intellinoun_NounsDAOSentiment).
+
 ## License
 
 This project is in the public domain. Check the [LICENSE](./LICENSE) file for more details.
