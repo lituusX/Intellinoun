@@ -1,10 +1,16 @@
 # Intellinoun
 
+## Project Description
+
+Intellinoun is a repository containing various scripts and datasets related to a language learning model (LLM) that
+focuses on analysis of text, with specific emphasis on noun usage. The project data is updated once every 24
+hours.
+
 ## 🚧 WIP
 
 ### IN PROGRESS
 
-- Sentiment Analysis with Flair
+- Sentiment Analysis
 - Sentiment Reinforcement
 - GUI to Generate Custom Datasets
 - Dashboard for Research and Analysis
@@ -16,10 +22,18 @@
 - Address and Transaction Tagging
 - TBD
 
-Intellinoun is a repository containing various scripts and datasets related to a language learning model (LLM) that
-focuses on nouns. The project data is updated once every 24 hours.
+## What is Ensemble Learning
+
+Ensemble learning is a machine learning paradigm where multiple models (often called "weak learners") are trained to
+solve the same problem and combined to get better results. The main hypothesis is that when weak models are correctly
+combined we can obtain more accurate and/or robust models. In our context, we are using two sentiment analysis models:
+OpenAI's Davinci model and the NLTK's Vader SentimentIntensityAnalyzer. The first script uses the Davinci model for
+sentiment classification and intensity prediction, while the second script uses Vader for a second round of sentiment
+classification and intensity prediction. This helps us get more reliable results.
 
 ## Project Structure
+
+The project's file structure has been updated and is now as follows:
 
 ```bash
 .
@@ -29,76 +43,85 @@ focuses on nouns. The project data is updated once every 24 hours.
 │   ├── __init__.py
 │   └── csv_to_xlsx.py
 ├── data
-│   ├── embedding
-│   │   └── general_info_examples
-│   │       └── nouns_lilnouns_sample.csv
-│   ├── enhanced
+│   ├── processed
 │   │   ├── votes_SentimentAnalysis.csv
-│   │   └── votes_SentimentAnalysis.xlsx
-│   ├── prepared
-│   │   ├── votes_SentimentPrep.csv
-│   │   └── votes_SentimentPrep.json
-│   └── raw
-│       ├── votes_raw.csv
-│       └── votes_raw.json
+│   │   ├── votes_SentimentAnalysis.json
+│   │   ├── votes_SentimentAnalysis_02.csv
+│   │   └── votes_SentimentAnalysis_02.json
+│   ├── raw
+│   │   ├── votes_raw.csv
+│   │   ├── votes_raw.json
+│   │   ├── votes_withReason.csv
+│   │   └── votes_withReason.json
+│   └── timestamps
+│       └── fetch_votes.txt
 ├── data_processing
+│   ├── __init__.py
 │   └── votes
-│       ├── votes_SentimentAnalysis.py
-│       ├── votes_SentimentPrep.py
-│       └── votes_formatEnhance.py
+│       ├── __init__.py
+│       ├── votes_SentimentAnalysis_01.py
+│       └── votes_SentimentAnalysis_02.py
 ├── fetch_data
 │   ├── __init__.py
-│   └── fetch_votes.py
+│   └── votes_fetch.py
 ├── poetry.lock
 ├── pyproject.toml
 └── tests
-    └── __init__.py
+└── __init__.py
 ```
 
-## Usage
+## New Scripts
 
-You can use the following commands to run the various scripts in the project:
+Two new scripts `votes_SentimentAnalysis_01.py` and `votes_SentimentAnalysis_02.py` have been added to the repository.
+
+### Script 1: `votes_SentimentAnalysis_01.py`
+
+This script does the following:
+
+1. It first reads the input data from a CSV file.
+2. For each row, if the row has a "reason", it performs grammar and spelling correction using the LanguageTool library.
+3. It then splits the corrected text into chunks if the length is greater than the token limit. For each chunk, it calls
+   the OpenAI API for sentiment classification and sentiment intensity prediction. The cost for each API call is also
+   calculated and recorded.
+4. The processed row data (including sentiment classification, intensity, tokens used, and cost) is then saved into an
+   output CSV and JSON file.
+
+### Script 2: `votes_SentimentAnalysis_02.py`
+
+This script takes the output from the first script and performs another round of sentiment analysis using NLTK's Vader
+SentimentIntensityAnalyzer. It does the following:
+
+1. It first reads the output data from the first script from a CSV file.
+2. For each row, it uses the Vader SentimentIntensityAnalyzer to analyze the sentiment of the text. This analyzer uses a
+   combination of lexical heuristics and a valence score to determine the sentiment of the text.
+3. The sentiment score from Vader (including positive, neutral, negative, and compound scores) is added to the row data.
+4. The processed row data (including all data from the first script and the additional Vader sentiment scores) is then
+   saved into a new output CSV and JSON file.
+
+These two scripts combined create an ensemble of two different sentiment analysis methods, which increases the accuracy
+and reliability of the results.
+
+## Execution
+
+You can use the following commands to execute the scripts in the project:
 
 ```bash
-poetry run python fetch_data/fetch_votes.py
+poetry run python fetch_data/votes_fetch.py
 poetry run python convert_files/csv_to_xlsx.py
-poetry run python data_processing/votes/votes_formatEnhance.py
-poetry run python data_processing/votes/votes_ReasonClassificationPrep.py
-poetry run python data_processing/votes/votes_ReasonClassification.py
+poetry run python data_processing/votes/votes_SentimentAnalysis_01.py
+poetry run python data_processing/votes/votes_SentimentAnalysis_02.py
 ```
 
-## File Descriptions
+The `fetch_data` script fetches the latest data, `convert_files` script is used for any file conversions if needed, and
+the `data_processing` scripts perform sentiment analysis on the fetched data.
 
-- `LICENSE`: The license file for the project.
-- `README.md`: The file you are currently reading.
-- `convert_files`: This directory contains scripts for converting files from one format to another.
-    - `__init__.py`: Makes the directory a Python package.
-    - `csv_to_xlsx.py`: Python script to convert CSV files to XLSX format.
-- `data`: Contains all the data related to the project, divided into subdirectories for organization.
-    - `embedding`: This directory contains embeddings for the nouns in the project.
-        - `general_info_examples`: Contains sample embeddings for nouns.
-            - `nouns_lilnouns_sample.csv`: Sample data containing general information examples for nouns in CSV format.
-    - `enhanced`: Contains enhanced data, which has undergone additional processing for more insightful analysis.
-        - `votes_SentimentAnalysis.csv`: CSV file containing the result of sentiment analysis on votes data.
-        - `votes_SentimentAnalysis.xlsx`: XLSX file containing the result of sentiment analysis on votes data.
-    - `prepared`: Contains data that has been preprocessed and is ready for analysis.
-        - `votes_SentimentPrep.csv`: Preprocessed votes data in CSV format.
-        - `votes_SentimentPrep.json`: Preprocessed votes data in JSON format.
-    - `raw`: Contains the raw data for the project.
-        - `votes_raw.csv`: Rawvotes data in CSV format.
-- `votes_raw.json`: Raw votes data in JSON format.
-- `data_processing`: Contains scripts for processing and enhancing data.
-    - `votes`: This directory contains scripts for formatting and enhancing voting data.
-        - `votes_SentimentAnalysis.py`: Script for performing sentiment analysis on votes data.
-        - `votes_SentimentPrep.py`: Script for preparing votes data for sentiment analysis.
-        - `votes_formatEnhance.py`: Script for enhancing and formatting votes data.
-- `fetch_data`: Contains scripts for fetching data.
-    - `__init__.py`: Makes the directory a Python package.
-    - `fetch_votes.py`: Script to fetch vote data.
-- `poetry.lock`: File generated by Poetry, a package and dependency management tool for Python.
-- `pyproject.toml`: File generated by Poetry for project configuration.
-- `tests`: Contains the test scripts for the project.
-    - `__init__.py`: Makes the directory a Python package.
+## Planned Work
+
+- Work on sentiment reinforcement is currently underway. This will involve using the output from the sentiment analysis
+  scripts to reinforce the sentiment prediction model.
+- A GUI to generate custom datasets and a dashboard for research and analysis are also being developed.
+- Future work includes extending the project to analyze other types of data such as proposal data and auction data, as
+  well as tagging of addresses and transactions.
 
 ## License
 
