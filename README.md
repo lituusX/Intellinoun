@@ -3,8 +3,7 @@
 ## Project Description
 
 Intellinoun is a repository containing various scripts and datasets related to a language learning model (LLM) that
-focuses on analysis of text, with specific emphasis on noun usage. The project data is updated once every 24
-hours.
+focuses on the analysis of text, with specific emphasis on noun usage. The project data is updated once every 24 hours.
 
 ## 🚧 WIP
 
@@ -44,6 +43,9 @@ The project's file structure has been updated and is now as follows:
 │   └── csv_to_xlsx.py
 ├── data
 │   ├── processed
+│   │   ├── datasets
+│   │   │   ├── votes_datasetSample.csv
+│   │   │   └── votes_datasetSample.parquet
 │   │   ├── votes_SentimentAnalysis.csv
 │   │   ├── votes_SentimentAnalysis.json
 │   │   ├── votes_SentimentAnalysis_02.csv
@@ -60,7 +62,8 @@ The project's file structure has been updated and is now as follows:
 │   └── votes
 │       ├── __init__.py
 │       ├── votes_SentimentAnalysis_01.py
-│       └── votes_SentimentAnalysis_02.py
+│       ├── votes_SentimentAnalysis_02.py
+│       └── votes_compileDataset.py
 ├── fetch_data
 │   ├── __init__.py
 │   └── votes_fetch.py
@@ -72,7 +75,8 @@ The project's file structure has been updated and is now as follows:
 
 ## New Scripts
 
-Two new scripts `votes_SentimentAnalysis_01.py` and `votes_SentimentAnalysis_02.py` have been added to the repository.
+Three new scripts `votes_SentimentAnalysis_01.py`, `votes_SentimentAnalysis_02.py`, and `votes_compileDataset.py` have
+been added to the repository.
 
 ### Script 1: `votes_SentimentAnalysis_01.py`
 
@@ -98,8 +102,13 @@ SentimentIntensityAnalyzer. It does the following:
 4. The processed row data (including all data from the first script and the additional Vader sentiment scores) is then
    saved into a new output CSV and JSON file.
 
-These two scripts combined create an ensemble of two different sentiment analysis methods, which increases the accuracy
-and reliability of the results.
+### Script 3: `votes_compileDataset.py`
+
+This script reads the output from the second sentiment analysis script, compiles it into a single dataset, and saves the
+dataset as both CSV and Parquet files in the `data/processed/datasets` directory.
+
+These three scripts combined create an ensemble of two different sentiment analysis methods, which increases the
+accuracy and reliability of the results.
 
 ## Execution
 
@@ -110,10 +119,11 @@ poetry run python fetch_data/votes_fetch.py
 poetry run python convert_files/csv_to_xlsx.py
 poetry run python data_processing/votes/votes_SentimentAnalysis_01.py
 poetry run python data_processing/votes/votes_SentimentAnalysis_02.py
+poetry run python data_processing/votes/votes_compileDataset.py
 ```
 
 The `fetch_data` script fetches the latest data, `convert_files` script is used for any file conversions if needed, and
-the `data_processing` scripts perform sentiment analysis on the fetched data.
+the `data_processing` scripts perform sentiment analysis on the fetched data and compile the final dataset.
 
 ## Planned Work
 
@@ -125,7 +135,7 @@ the `data_processing` scripts perform sentiment analysis on the fetched data.
 
 ## Huggingface
 
-Datasets can be found [here](https://huggingface.co/datasets/lituus/Intellinoun_NounsDAOSentiment).
+Datasets can be found [here](https://huggingface.co/datasets/lituus/).
 
 ## License
 
