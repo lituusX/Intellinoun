@@ -1,5 +1,7 @@
 # Intellinoun
 
+[![CodeQL](https://github.com/lituusx/intellinoun/workflows/CodeQL/badge.svg)](https://github.com/lituusx/intellinoun/actions?query=workflow%3ACodeQL)
+
 ## Project Description
 
 Intellinoun is a repository containing various scripts and datasets related to a language learning model (LLM) that
