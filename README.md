@@ -137,7 +137,7 @@ the `data_processing` scripts perform sentiment analysis on the fetched data and
 
 ## Huggingface
 
-Datasets can be found [here](https://huggingface.co/datasets/lituus/).
+Datasets can be found [here](https://huggingface.co/lituus/).
 
 ## License
 
