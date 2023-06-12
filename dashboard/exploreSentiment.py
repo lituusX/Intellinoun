@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import dash_table.FormatTemplate as FormatTemplate
 from dash_table.Format import Format, Scheme, Trim
 
-df = pd.read_csv('votes_sentimentAVG.csv')
+df = pd.read_csv('./data/processed/datasets/votes_sentimentAVG.csv')
 
 voter_ids = df['Voter ID'].unique()
 proposal_ids = df['Proposal ID'].unique()

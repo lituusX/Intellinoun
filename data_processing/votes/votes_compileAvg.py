@@ -4,6 +4,7 @@ df = pd.read_csv('../../data/processed/votes_SentimentAnalysis_04.csv')
 
 df = df[
     ['proposal_id', 'voterId', 'voteChoice', 'Sentiment Intensity', 'Sentiment Intensity_2', 'Sentiment Intensity_dv2',
+     'blockNumber',
      'Sentiment Intensity_dv3_r',
      'reason_formatted']].rename(
     columns={
@@ -15,6 +16,8 @@ df = df[
         'Sentiment Intensity_dv2': 'Score C',
         'Sentiment Intensity_dv3_r': 'Score D',
         'reason_formatted': 'Reason',
+        'blockNumber': 'Block Number',
+
     }
 )
 
